@@ -1,6 +1,6 @@
-from sheet import Sheet, Cell
+from sheet import Sheet
 import pytest
-from calculates import FormulaParser, FunctionLibrary
+from utils.calculates import FormulaParser, FunctionLibrary
 
 @pytest.fixture
 def sheet():

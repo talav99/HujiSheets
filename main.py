@@ -1,12 +1,12 @@
-from sheet import Sheet, Cell
+from utils.sheet import Sheet, Cell
 import tkinter as tk
 import tkinter.simpledialog as simpledialog
 from tkinter import messagebox, filedialog
 import tkinter.colorchooser as colorchooser
-from calculates import FormulaParser
+from utils.calculates import FormulaParser
 import string
 import sys
-from import_export import SheetLoader
+from utils.import_export import SheetLoader
 
 window = tk.Tk()
 window.geometry("800x500")
